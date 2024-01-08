@@ -164,16 +164,7 @@ align-items: center;
 
 /* sec-details */
 .sec-3 {
-    border-radius: 16px;
-
-    width: 82%;
-    max-width: 1320px;
-    max-height: 482px;
-    margin: 120px auto;
-    padding: 120px 100px;
-    fill: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-
-
+    background-color: aqua;
 }
 
 
@@ -191,7 +182,7 @@ span {
 }
 
 .sec-3-content {
-    
+
     text-align: center;
     color: #070211;
 
@@ -210,19 +201,19 @@ span {
 
 
     text-align: center;
-    
+
 
 }
 
 /* .sec-3-button { */
-    text-align: center;
-    display: inline-flex;
-    padding: 16px 32px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 8px;
-    background: #F00;
+text-align: center;
+display: inline-flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: #F00;
 }
 
 
@@ -230,9 +221,12 @@ span {
 .sec-4 {
     width: 82%;
     max-width: 1320px;
-    margin: 50px auto;
+    margin: 140px auto;
+    
 }
-
+.sec-4{
+    margin: 140px auto;
+}
 .sec-4-greeting {
     color: #F00;
     font-family: Inter;
@@ -284,7 +278,7 @@ gap: 24;
     max-height: 616 px;
     margin: 120px auto;
     padding: 120px 100px;
-    background:red;
+    background: red;
 
 
 
@@ -292,4 +286,94 @@ gap: 24;
 
 .sec-5 {
     text-align: center;
+}
+
+/* footer */
+.footer {
+    background-color: black;
+    
+
+    width: 100%;
+    
+    margin-top: 50px;
+
+}
+
+.footer-para {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+}
+
+.footer-num {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+
+}
+
+.call {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-link {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+
+}
+
+.website {
+    width: 24px;
+    height: 24px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 140px 20px 140px;
+}
+
+.img {
+    text-align: center;
+}
+
+.footer-para2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.footer-num2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.content2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 140px 20px 140px;
+
 }
