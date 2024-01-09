@@ -280,6 +280,11 @@ span {
     gap: 24px;
     margin-top: 24px;
 }
+.img:hover{
+    transform: scale(1.1);
+    
+}
+
 
 /* sec-5-details */
 .sec-5 {
@@ -348,6 +353,10 @@ span {
     border: 0;
 
 
+}
+button:hover{
+    background-color: dodgerblue;
+    color: white;
 }
 
 
